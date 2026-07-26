@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <!-- Definitions for reusable complex shapes -->
+  <defs>
+    <path id="a" d="M-71.44-36A80 80 0 0 1 79.1-12a80 80 0 0 1 0 24H-54.7a56 56 0 0 0 97.6 24h28.54A80 80 0 0 1-79.1 12a80 80 0 0 1 0-24H54.7a56 56 0 0 0-97.6-24Z"/>
+  </defs>
+
+  <!-- Logo Group: Dark gray fill with a 1px white stroke for dark mode visibility -->
+  <g fill="#313131" stroke="#ffffff" stroke-width="1" stroke-linejoin="round">
+    <!-- First 'e' -->
+    <use href="#a" x="230" y="400"/>
+    
+    <!-- Center 'z' -->
+    <path d="M335 320h130l-85 136h85v24H335l85-136h-85z"/>
+    
+    <!-- Second 'e' -->
+    <use href="#a" x="570" y="400"/>
+  </g>
+
+  <!-- Subtext: Dark gray fill with a 0.5px white stroke to maintain legibility -->
+  <text 
+      x="400" 
+      y="565" 
+      font-family="'Montserrat', 'Helvetica Neue', Arial, sans-serif" 
+      font-size="24" 
+      font-weight="600" 
+      letter-spacing="18" 
+      text-anchor="middle" 
+      fill="#313131" 
+      stroke="#ffffff" 
+      stroke-width="0.5">
+      PERFUME
+  </text>
+</svg>
